@@ -221,8 +221,9 @@ footer {
 }
 
 .container-primary img {
-  width: 45%;
-  height: 800px;
+  width: 100%; /* Adjusted width for responsiveness */
+  max-width: 600px; /* Added max-width to limit image size on larger screens */
+  height: auto; /* Maintain aspect ratio */
   padding: 10px;
   object-fit: cover;
 }
@@ -230,15 +231,29 @@ footer {
 .container-secondary {
   display: flex;
   justify-content: center;
-  height: 10%;
 }
 
 .container-secondary img {
-  width: 1296px;
-  height: 625px;
+  width: 100%;
+  max-width: 100%; 
+  height: auto; 
   padding: 10px;
   object-fit: cover;
 }
+
+@media (min-width: 768px) {
+  .container-primary img {
+    max-width: none; 
+    width: 45%; 
+    max-height: 800px; 
+  }
+
+  .container-secondary img {
+    max-width: 1296px; 
+    max-height: 625px; 
+  }
+}
+
 
 #icon {
   margin: 50px;
