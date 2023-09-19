@@ -590,34 +590,60 @@ footer {
 
 /* About Us */
 
+
+
 .container {
-  padding: 30px;
+  padding: 15px;
 }
-
-
 
 .container h1 {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  padding: 30px;
-  font-size: 24px;
-  font-weight: bolder;
-  line-height: 29px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
 }
 
 .container #para {
-  padding: 75px;
+  padding: 30px;
   text-align: justify;
   font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  line-height: 32px;
+  font-size: 12px;
+  line-height: 24px;
   font-weight: 400;
 }
 
 img {
-  justify-content: center;
-  object-fit: fill;
-  overflow: hidden;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+/* Media query for screens with a minimum width of 768 pixels */
+@media (min-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+
+  .container h1 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .container #para {
+    font-size: 14px;
+    line-height: 32px;
+    padding: 75px;
+  }
+
+  img {
+    justify-content: center;
+    overflow: hidden;
+  }
 }
 
 
