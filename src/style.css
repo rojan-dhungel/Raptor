@@ -777,7 +777,7 @@ table .table-bordered {
 /* instagram */
 
 .instagram-theme {
-  padding: 119px;
+  padding: 10px; /* Adjusted padding for mobile screens */
 }
 
 .instagram-theme h6 {
@@ -788,12 +788,24 @@ table .table-bordered {
   border: 0.5px solid #FAD3D2;
   background-color: #FAD3D2;
   color: #8E0B0B;
-  margin-bottom: 15px;
-  padding: 15px;
+  margin-bottom: 10px; /* Adjusted margin for mobile screens */
+  padding: 10px; /* Adjusted padding for mobile screens */
   border-radius: 5px;
-  width: 50%;
-  margin: 0 auto;
+  width: 90%; /* Adjusted width for mobile screens */
+  margin-left: auto; /* Centering the element */
+  margin-right: auto; /* Centering the element */
 }
+
+@media (min-width: 768px) {
+  .instagram-theme {
+    padding: 119px;
+  }
+
+  .instagram-theme h6 {
+    width: 50%; /* Reset width for larger screens */
+  }
+}
+
 
 /* newsletter */
 
