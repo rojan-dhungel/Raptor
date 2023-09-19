@@ -16,7 +16,7 @@ import Jackets from './components/Jackets'
 import Trousers from './components/Trousers'
 import Hoodies from './components/Hoodies'
 import Instagram from './components/Instagram'
-import Facebook from './components/facebook'
+import Facebook from './components/Facebook'
 import Newsletter from './components/Newsletter'
 import Error from './Error'
 
