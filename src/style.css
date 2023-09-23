@@ -199,6 +199,7 @@ footer {
 
 .col a:hover {
   text-decoration: underline;
+  color: #999999;
 }
 
 
@@ -608,7 +609,7 @@ footer {
 }
 
 .container #para {
-  padding: 75px;
+  padding: 30px;
   text-align: justify;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
@@ -622,6 +623,37 @@ img {
   overflow: hidden;
 }
 
+
+#about_image_1{
+  height: 70vh; 
+  width: 40vw; 
+}
+
+#about_image_2{
+  height: 40vh;
+  width: 30vw; 
+}
+
+@media screen and (max-width: 768px) {
+  #about h1 {
+    font-size: 20px;
+  }
+
+  #about #para {
+    font-size: 12px;
+  }
+
+  #about_image_1{
+    height: 50vh;
+    width: 80vw;
+  }
+
+  #about_image_2{
+    justify-content: center;
+    height: 30vh;
+    width: 80vw;
+  }
+}
 
 
 
@@ -696,29 +728,9 @@ img {
   transform: scale(1.1);
 }
 
-/* Return */
 
-.container {
-  padding: 30px;
-}
+ /* RETURN */
 
-.container h1 {
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  padding: 30px;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 29px;
-}
-
-.container #para {
-  padding: 75px;
-  text-align: justify;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  line-height: 32px;
-  font-weight: 400;
-}
 
 #return {
   justify-content: center;

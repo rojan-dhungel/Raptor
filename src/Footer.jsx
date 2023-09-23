@@ -35,7 +35,7 @@ export default function Footer() {
                                 <li> <a href="#">About Us</a></li>
                                 </Link>
                                 <Link to ='/sustainability'>
-                                <li> <a href="#">Ethics Sustainability</a></li>
+                                <li> <a href="#">Sustainability</a></li>
                                 </Link>
                                 
 

@@ -4,11 +4,11 @@ function Aboutus() {
     return (
         <>
 
-            <div className="container">
+            <div className="container" id='#about'>
                 <h1>About Us</h1>
                 <div className="row">
                     <div className="col">
-                        <img src='https://img.freepik.com/free-vector/wedding-planner-concept-illustration_114360-2580.jpg?w=1380&t=st=1694596325~exp=1694596925~hmac=e9911c2f09a680578c78383f04cd31509b0c5d363bab9543e10731402c62a098' alt='...loading' height='700' width='600'></img>
+                        <img src='https://img.freepik.com/free-vector/wedding-planner-concept-illustration_114360-2580.jpg?w=1380&t=st=1694596325~exp=1694596925~hmac=e9911c2f09a680578c78383f04cd31509b0c5d363bab9543e10731402c62a098' alt='...loading'  id='about_image_1'></img>
                     </div>
                     <div className="col" id='para'>
                         <p>I, Rojan, am a highly pragmatic and practical individual. With a keen focus on efficiency, I approach tasks with a results-driven mindset.</p>
@@ -24,7 +24,7 @@ function Aboutus() {
                         </p>
                     </div>
                     <div className="col">
-                        <img src='https://img.freepik.com/premium-photo/group-designers-working-modern-stu_252847-49334.jpg?w=1480' alt='...loading' height='500' width='600'></img>
+                        <img src='https://img.freepik.com/premium-photo/group-designers-working-modern-stu_252847-49334.jpg?w=1480' alt='...loading' id='about_image_2'></img>
                     </div>
 
 
